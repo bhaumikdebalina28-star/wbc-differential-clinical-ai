@@ -1,0 +1,10 @@
+tensorflow==2.16.1
+kaggle
+matplotlib
+seaborn
+scikit-learn
+numpy
+pandas
+opencv-python
+jupyter
+ipykernel
