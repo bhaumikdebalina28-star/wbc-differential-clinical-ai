@@ -17,7 +17,7 @@
 
 - Any signs of overfitting (train vs. validation gap): Based on the training curves, there are no obvious signs of overfitting. Both training and validation accuracy are increasing, and notably, the validation accuracy is often slightly higher or very close to the training accuracy. Similarly, the validation loss is consistently lower than the training loss. This pattern suggests the model might not be overfitting and could potentially benefit from more training epochs or a more complex architecture if higher performance is desired.
 
-- What you'd do with more time/data:  Unfreeze the top few layers of the pretrained base and fine-tune at a low learning rate
+- What I'd do with more time/data:  Unfreeze the top few layers of the pretrained base and fine-tune at a low learning rate
   directly on the blood cell images, rather than only training the classification head.
   Would also try a backbone pretrained on histology/medical images instead of general photos,
   and validate across multiple labs/scanners/stain batches before trusting generalization.
