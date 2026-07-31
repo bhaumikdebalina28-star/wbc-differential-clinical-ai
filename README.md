@@ -1,6 +1,6 @@
 # WBC Differential — AI-Assisted Classification with Clinical Validation Framework
 
-A small project mirroring SigTuple's Shonit application: classifying white blood cell types
+An open-source project inspired by / benchmarking the architectural workflow of SigTuple's Shonit™ application : classifying white blood cell types
 from microscopy images using transfer learning, wrapped in a clinical validation framework
 (intended use, risk analysis, validation protocol, human-in-the-loop deployment plan).
 
